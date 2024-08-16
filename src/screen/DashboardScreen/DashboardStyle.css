@@ -1,0 +1,140 @@
+.dashMainDiv {
+    width: 100%;
+    min-height: 92.5%;
+    max-height: 92.5%;
+    display: flex;
+    overflow-x: hidden;
+    padding: 0% 0% 0% 0%;
+}
+
+.leftDiv {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 2%;
+    text-align: center;
+    justify-content: center;
+    row-gap: .5%;
+}
+
+.rghtDiv {
+    padding: 1%;
+    width: 98%;
+    height: auto;
+    margin-left: 0%;
+    background-color: rgb(36, 154, 168);
+    background: linear-gradient(rgb(74, 212, 228), rgb(73, 151, 175), rgb(45, 97, 142));
+    /* background: url('../../assets/BG-01 - Copy.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.deptListDiv {
+    width: auto;
+    height: 100%;
+    display: flex;
+    flex-flow:row wrap;
+    align-content: flex-start;
+    justify-content: left;
+    padding-left: 3vw;
+    column-gap: 2% !important;
+}
+
+.trapezoid {
+    border-bottom: 10px solid transparent;
+    border-Top: 10px solid transparent;
+    border-left: 180px solid rgb(215, 217, 218);
+    height: 120px;
+    z-index: 0;
+}
+
+
+.trapezoid span {
+    position: absolute;
+    text-align: center;
+}
+
+
+@media screen and (min-width: 720px) and (max-width: 1080px) {
+   
+    .rghtDiv {
+        padding: 1%;
+        width: 98%;
+        height: auto;
+        margin-left: 0%;
+        background-color: rgb(36, 154, 168);
+        background: linear-gradient(rgb(74, 212, 228), rgb(73, 151, 175), rgb(45, 97, 142));
+    }
+    
+    .deptListDiv {
+        width: auto;
+        height: 100%;
+        display: flex;
+        flex-flow:row wrap;
+        align-content: flex-start;
+        justify-content: left;
+        padding-left: 0vw;
+        column-gap: 1% !important;
+    }
+    
+    .trapezoid {
+        border-bottom: 10px solid transparent;
+        border-Top: 10px solid transparent;
+        border-left: 180px solid rgb(215, 217, 218);
+        height: 120px;
+        z-index: 0;
+    }
+    
+    
+    .trapezoid span {
+        position: absolute;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 420px) and (max-width: 720px) {
+   
+    .dashMainDiv {
+        width: 100%;
+        min-height: 92.5%;
+        max-height:auto;
+        display: flex;
+        overflow-x: hidden;
+        padding: 0% 0% 0% 0%;
+    }
+
+    .rghtDiv {
+        padding: 1%;
+        width: 98%;
+        height: 150%;
+        margin-left: 0%;
+        background-color: rgb(36, 154, 168);
+        background: linear-gradient(rgb(74, 212, 228), rgb(73, 151, 175), rgb(45, 97, 142));
+    }
+    
+    .deptListDiv {
+        width: auto;
+        min-height: 100%;
+        max-height: auto;
+        display: flex;
+        flex-flow:row wrap;
+        align-content: flex-start;
+        justify-content: flex-start;
+        padding-left: 2vw;
+        column-gap: 1% !important;
+    }
+    
+    .trapezoid {
+        border-bottom: 10px solid transparent;
+        border-Top: 10px solid transparent;
+        border-left: 180px solid rgb(215, 217, 218);
+        height: 120px;
+        z-index: 0;
+    }
+       
+    .trapezoid span {
+        position: absolute;
+        text-align: center;
+    }
+}

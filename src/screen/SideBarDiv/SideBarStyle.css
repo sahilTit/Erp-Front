@@ -1,0 +1,136 @@
+.sideBar {
+    width: 25%;
+    max-height: 100%;
+    background-color: white;
+    position: relative;
+    overflow-y: auto;
+}
+
+.sideListHead {
+    height: 5vh;
+    padding: 2% 0% 0% 5%;
+    box-shadow: 0 4px 4px -6px black;
+    margin-bottom: 5%;
+}
+
+.sideBarHead {
+    font-weight: 500;
+    font-size: 1.4vw;
+    text-align: center;
+}
+
+.close_btn {
+    background-color: white;
+    padding: 0% .5%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset
+}
+
+.sideBar img {
+    position: absolute;
+    width: 13%;
+    height: 4%;
+    top: .8%;
+    right: 0;
+    cursor: pointer;
+}
+
+.side_frm_Name {
+    width: 100%;
+    height: auto;
+    font-size: .8vw;
+    font-weight: normal;
+    padding: 0.5% 4%;
+    margin-bottom: 0.5%;
+}
+
+.side_frm_Name:hover {
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+
+@media screen and (min-width: 720px) and (max-width: 1080px) {
+    .sideBarHead {
+        font-size: 2.2vw;
+    }
+
+    .sideListHead {
+        height: 5vh;
+        padding: 2% 0% 0% 20%;
+        box-shadow: 0 4px 4px -6px black;
+        margin-bottom: 5%;
+    }
+
+    .sideBar img {
+        position: absolute;
+        width: 35px;
+        height: 28px;
+        top: 0;
+        right: 0;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 720px) {
+    .sideBar {
+        width: 25%;
+        height: 162.5vh;
+        background-color: white;
+        position: relative;
+        overflow-y: auto;
+    }
+
+    .sideBarHead {
+        font-size: 2.4vw;
+        height: 150%;
+        padding-right: 25%;
+    }
+
+    .sideListHead {
+        height: 4vh;
+        padding: 5% 0% 0% -15%;
+        text-align: left;
+        box-shadow: 0 4px 4px -6px black;
+        margin-bottom: 5%;
+    }
+
+    .sideBar img {
+        position: absolute;
+        width: 35px;
+        height: 28px;
+        top: 0;
+        right: 0;
+    }
+
+    .side_frm_Name{
+        font-size: 9px;
+    }
+}
+
+@media screen and (min-width: 420px) and (max-width: 600px) {
+    .sideBar {
+        width: 25%;
+        max-height: 100%;
+        background-color: white;
+        position: relative;
+        overflow-y: auto;
+    }
+
+    .sideBarHead {
+        font-size: 2.2vw;
+        height: 150%;
+    }
+
+    .sideListHead {
+        height: 5vh;
+        padding: 2% 0% 0% 20%;
+        box-shadow: 0 4px 4px -6px black;
+        margin-bottom: 5%;
+    }
+
+    .sideBar img {
+        position: absolute;
+        width: 35px;
+        height: 28px;
+        top: 0;
+        right: 0;
+    }
+}

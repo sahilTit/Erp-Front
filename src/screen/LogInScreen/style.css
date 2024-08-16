@@ -1,0 +1,59 @@
+.topDivLog {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.logInContainer {
+    width: 100vw;
+    height: 70vh;
+}
+
+.logDivWidth{
+    border-radius: 1rem;
+    max-width: 600px;
+    max-height: 600px;
+}
+
+.logInDiv {
+    margin: auto;
+    margin-top: 10vh;
+    width: 40vw;
+    height: 40vh;
+    text-align: center;
+    padding: 2% 0% 1% 0%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+
+@media screen and (max-height:800px){
+    .topDivLog {
+        margin: 0;
+        position: absolute;
+        top: 55%;
+        transform: translateY(-50%);
+    }
+    
+    .logInContainer {
+        width: 100vw;
+        height: 60vh;
+    }
+
+    .logDivWidth{
+        border-radius: 1rem;
+        max-width: 500px;
+        max-height: 350px;
+    }
+    
+    .logInDiv {
+        margin: auto;
+        margin-top: 10vh;
+        width: 20vw;
+        height: 20vh;
+        text-align: center;
+        padding: 2% 0% 1% 0%;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    }
+  
+  }

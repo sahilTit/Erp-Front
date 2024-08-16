@@ -1,0 +1,71 @@
+/* AnimatedDropdown.css */
+
+.dropdown-container {
+  position: relative;
+  min-width: 45%;
+  max-width: auto;
+  z-index: 5;
+}
+
+.dropdown-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Arrow on the right, text centered */
+  height: 4vh;
+  width: 100%;
+  padding: 0;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  z-index: 1;
+}
+
+.dropdown-button.open {
+  background-color: #f0f0f0; /* Change the background color when open */
+  z-index: 50;
+}
+
+.text {
+  flex-grow: 1; /* Allow text to expand and fill available space */
+  text-align: center; /* Center the text */
+}
+
+.arrow {
+  font-size: 24px; /* Adjust the arrow size */
+  transition: transform 0.3s; /* Transition for arrow rotation */
+}
+
+.dropdown-button.open .arrow {
+  transform: rotate(180deg); /* Rotate arrow when dropdown is open */
+}
+
+.dropdown-list {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: opacity 0.3s, transform 0.3s;
+  max-height: 200px; /* Set the maximum height */
+  overflow-y: auto; /* Add scroll if content exceeds max height */
+}
+
+.dropdown-list.open {
+  display: block;
+  opacity: 1;
+  z-index: 50;
+  transform: translateY(0);
+}
+
+.dropdown-item {
+  padding: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.dropdown-item:hover {
+  background-color: #f0f0f0; /* Change the background color on hover */
+}

@@ -1,0 +1,92 @@
+{
+  "name": "soserp",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:4500/",
+  "dependencies": {
+    "@chakra-ui/icons": "^2.1.0",
+    "@chakra-ui/react": "^2.8.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@fortawesome/fontawesome-svg-core": "^6.5.2",
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@material-ui/core": "^4.12.4",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "antd": "^5.4.7",
+    "axios": "^1.4.0",
+    "bootstrap": "^5.3.0",
+    "concurrently": "^8.2.0",
+    "date-fns": "^2.30.0",
+    "date-fns-tz": "^2.0.0",
+    "exceljs": "^4.3.0",
+    "file-saver": "^2.0.5",
+    "formik": "^2.4.3",
+    "framer-motion": "^10.15.1",
+    "history": "^5.3.0",
+    "html-to-xlsx": "^2.2.4",
+    "html2canvas": "^1.4.1",
+    "html2pdf.js": "^0.10.1",
+    "js-cookie": "^3.0.5",
+    "js-file-download": "^0.4.12",
+    "jspdf": "^2.5.1",
+    "jspdf-autotable": "^3.6.0",
+    "mdb-react-ui-kit": "^6.0.0",
+    "moment": "^2.29.4",
+    "primeflex": "^3.3.1",
+    "primeicons": "^6.0.1",
+    "primereact": "^10.0.3",
+    "puppeteer": "^21.3.8",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.8.0",
+    "react-calendar": "^4.6.0",
+    "react-dom": "^18.2.0",
+    "react-draggable": "^4.4.5",
+    "react-dropdown": "^1.11.0",
+    "react-html-table-to-excel": "^2.0.0",
+    "react-idle-timer": "^5.7.2",
+    "react-js-pagination": "^3.0.3",
+    "react-qr-code": "^2.0.12",
+    "react-router-dom": "^6.18.0",
+    "react-scripts": "^5.0.1",
+    "react-select": "^5.7.5",
+    "react-spinkit": "^3.0.0",
+    "react-spinners": "^0.13.8",
+    "react-table": "^7.8.0",
+    "react-toastify": "^9.1.2",
+    "sheetjs-style": "^0.15.8",
+    "smooth-scrollbar-react": "^2.4.1",
+    "uniforms": "^4.0.0-alpha.5",
+    "uniforms-bridge-simple-schema-2": "^4.0.0-alpha.5",
+    "uniforms-material": "^4.0.0-alpha.5",
+    "web-vitals": "^2.1.4",
+    "xlsx": "^0.18.5",
+    "yup": "^1.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

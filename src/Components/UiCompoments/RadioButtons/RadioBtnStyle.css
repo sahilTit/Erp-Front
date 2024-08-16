@@ -1,0 +1,37 @@
+.radio-button-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .radio-button-label {
+    position: relative;
+    padding-left: 30px; /* Add space for custom radio button */
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 10px;
+    user-select: none;
+  }
+  
+  .radio-button-label input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .radio-button-label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 2px;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #007bff; /* Color for the border */
+    border-radius: 50%;
+    transition: border-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .radio-button-label input[type="radio"]:checked + .radio-button-label:before {
+    border-color: #007bff; /* Change color when selected */
+    transform: scale(1.1); /* Add animation when selected */
+  }
+  

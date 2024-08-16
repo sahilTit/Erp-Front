@@ -1,0 +1,246 @@
+
+input::placeholder {   
+    color: #c5bbbb; 
+    font-size: '20px';
+    padding-left: 5%;
+}
+
+.inputTwo::placeholder,
+.inputTwo::-webkit-input-placeholder {
+  padding-left: 5%; 
+  font-size: '20px' ;
+}
+ 
+.formDesgn {
+  width: 60%;
+  height: 87%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1%;
+  padding-top: 1%;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+:focus {
+  outline: none;
+}
+
+input[type="text"] {
+  font: 0.9rem 'Muli', sans-serif;
+  color: #333;
+  width: 100%;
+  box-sizing: border-box;
+  letter-spacing: 1px;
+}
+
+:focus {
+  outline: none;
+}
+
+input[type="text"] {
+  font: 0.9rem "Lato", Arial, sans-serif;
+  color: #333;
+  width: 100%;
+  box-sizing: border-box;
+  letter-spacing: 1px;
+}
+
+.inputTwo{
+  border: 0;
+  padding: 3px 0;
+  border-bottom: 1px solid #9c9a9a;
+}
+
+.inputTwo~.focus-border {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background-color: #4caf50;
+  transition: 0.8s;
+}
+
+.inputTwo:focus~.focus-border {
+  width: 100%;
+  transition: 0.4s;
+  left: 0;
+}
+
+.inputTwo::placeholder {
+  font-size: 0.8rem;
+}
+
+.inputTwo:focus::placeholder {
+  color: #4caf50;
+  transform: translateY(-5px) !important;
+  transition: 0.6s;
+  left: 0;
+}
+
+input:active {
+  color: #4caf50;
+  border-bottom: 5px solid #4caf50 !important;
+  transition: all 0.4s;
+}
+
+.inputTwo:focus {
+  border-bottom: 1px solid #4caf50 !important;
+  transition: all 0.4s;
+}
+
+#inputTwo {
+  padding: 4px;
+  border: none;
+}
+
+#inputTwo:focus {
+  border-bottom-color: #4caf50;
+}
+
+#inputTwo:focus::placeholder {
+  color: #4caf50;
+  transform: translateY(-5px) !important;
+}
+
+.buttons {
+  width: 100%;
+  height: 10%;
+  position: absolute;
+  bottom: 0;
+  padding-top: 1%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.search-icon {
+  position: relative;
+  width: 10px;
+  height: 10px;
+  cursor: pointer;
+  top: -3vh !important;
+  left: 12vw;
+}
+
+.handle {
+  position: absolute;
+  width: 8px;
+  height: 2px;
+  background-color: #9c9a9a;
+  top: 90%;
+  left: 80%;
+  transform: rotate(40deg);
+}
+
+.circle {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border: 2px solid #9c9a9a;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.search-icon:hover .circle {
+  border: 2px solid #4caf50;
+  transition: 0.4s;
+
+}
+
+.inputTwo:focus~.circle .handle {
+  background-color: #4caf50;
+  border: 2px solid #4caf50;
+  transition: 0.4s;
+}
+
+.inputTwo:active .circle .handle {
+  background-color: #4caf50;
+  border: 2px solid #4caf50;
+  transition: 0.4s;
+}
+
+.search-icon:hover .handle {
+  border: 1px solid #4caf50;
+  transition: 0.4s;
+
+}
+
+.inputTwo:focus~.handle {
+  color: #4caf50;
+  background-color: #4caf50;
+  border: 2px solid #4caf50;
+  transition: 0.4s;
+}
+.inputTwo:focus {
+  border-color: blue; 
+  outline: none; 
+}
+
+
+.inputTwo:focus + .search-icon .handle{
+  border: 1px solid #4caf50;
+  transition: 0.4s;
+}
+.inputTwo:focus + .search-icon .circle {
+  border: 2px solid #4caf50;
+  transition: 0.4s;
+}
+
+.form_table_style{
+  width: 100%;
+  height: 60%;
+  border: 1px solid palevioletred;
+}
+
+.dataField{
+  margin: 0.5%;
+  height: 6%;
+  display: flex;
+  padding: 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.form_label{
+  height: 100%;
+  position: absolute;
+}
+
+.form_label label{
+  font-size: 12px;
+  height: 100% !important;
+}
+
+.form_input{
+  font-size: 12px !important;
+  position: absolute;
+  right: 0px !important;
+  top: 0%;
+  bottom: 0;
+  height: 100% !important;
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+.inputTwo{
+  height: 100%;
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+.form_btn{
+  padding: 0px;
+  margin: 0% 0% 0% 0% !important;
+  position: absolute !important;
+  top: 0%;
+  right: 0%;
+  height: 100%;
+  bottom: 0% !important;
+}
+
+
+

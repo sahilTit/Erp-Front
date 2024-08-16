@@ -1,0 +1,45 @@
+
+.firstDiv{
+    width: 75%;
+    height: 5vh;
+    margin: 3% auto 0% auto;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
+
+.venderInfo{
+    width: 95%;
+    min-height: 32vh;
+    max-height: 'auto';
+    margin: 1% auto 3% auto;
+    position: relative;
+}
+
+.venderInfo h6{
+    text-align: left;
+}
+
+.remarkArea label{
+    font-weight: 600 !important;
+}
+
+.venderInfo .buttonsRow{
+    width: 40%;
+    justify-content: space-around;
+    margin: 0% auto;
+}
+
+.series{
+    height: 4vh; 
+    width: 25vw; 
+    text-align: left; 
+    margin-bottom: 1.5%; 
+    display: flex;
+}
+
+/* @media screen and (min-width: 1500px) {
+    .inputTagHeight {
+      height: 20px;
+    }
+} */
